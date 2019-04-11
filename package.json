@@ -1,19 +1,26 @@
 {
   "name": "lswebmap",
-  "version": "1.0.0",
-  "description": "Webmap made to visualise loadshedding in South Africa",
+  "version": "0.3.0",
+  "description": "A webmap to visualise loadshedding in South Africa.",
+  "engines": {
+    "node": "10.x"
+  },
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js"
+    "start": "node index.js",
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OGMalan/lswebmap.git"
+    "url": "https://github.com/OGMalan/lswebmap"
   },
   "author": "Ockert Malan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/OGMalan/lswebmap/issues"
-  },
-  "homepage": "https://github.com/OGMalan/lswebmap#readme"
+  "license": "MIT"
 }
